@@ -1,0 +1,38 @@
+.compareList_B {
+  margin: 15px;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  max-width: 95%;
+}
+.chartjs-size-monitor {
+  height: 500px;
+  width: 700px;
+}
+.compareListButton > Button {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 7.5px;
+  margin: 7.5px;
+  border-radius: 7.5px;
+  color: black;
+  min-width: 120px;
+  justify-content: space-between;
+  padding-left: 15px;
+  text-transform: none;
+  font-size: 15px;
+}
+
+.deleteButton > .MuiButton-label > .MuiSvgIcon-root {
+  color: rgb(195, 89, 89);
+}
+
+.compareList_B::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.compareList_B {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

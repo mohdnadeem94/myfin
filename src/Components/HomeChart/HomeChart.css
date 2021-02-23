@@ -1,0 +1,82 @@
+.homeChart {
+  margin-top: 80px;
+}
+
+.homeChart_Top {
+  display: flex;
+  overflow-x: scroll;
+  margin: 1.5%;
+}
+
+.homeChart_Top > p {
+  max-width: 100%;
+  min-width: 100px;
+  height: 30px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-left: 25px;
+  margin: 10px;
+  background-color: white;
+  color: grey;
+  border: 1px solid gray;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.homeChart_Top::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.homeChart_Top {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.homeChart_Top > p:hover {
+  background-image: linear-gradient(
+    to left,
+    #df5f5f,
+    #6fb0c2,
+    rgb(96, 214, 122)
+  );
+  color: white;
+  cursor: pointer;
+}
+
+.homeChart_Top > .activeButton {
+  background-image: linear-gradient(
+    to left,
+    #df5f5f,
+    #6fb0c2,
+    rgb(96, 214, 122)
+  );
+  color: white;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.homeChart_Chart {
+  background-color: white;
+  overflow: scroll;
+  border: 1px grey solid;
+  padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  max-width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
+  display: flex;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.homeChart_Chart::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.homeChart_Chart {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,11 @@
+.home {
+  background-color: rgb(244, 245, 246);
+}
+
+.home_NewsNEarnings {
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 2%;
+  display: flex;
+}

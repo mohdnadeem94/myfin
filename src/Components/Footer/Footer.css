@@ -1,0 +1,30 @@
+.footer {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin: 3%;
+  background-color: whitesmoke;
+}
+
+.footer > h3 {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.footer_Stock {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.footer_Stock::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.footer_Stock {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.rec-pagination > button {
+  display: none;
+}

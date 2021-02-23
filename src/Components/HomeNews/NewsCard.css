@@ -1,0 +1,33 @@
+.news_card {
+  max-width: 97.5%;
+  border-top: 0.5px solid grey;
+  margin: 5px;
+  min-height: 50px;
+  padding: 10px;
+}
+.news_card {
+  display: flex;
+}
+
+.news_card > img {
+  object-fit: contain;
+  height: 100px;
+  width: 150px;
+  padding-right: 0;
+}
+
+.news_cardInfo {
+  width: 80%;
+}
+
+.news_cardInfoNews {
+  max-width: 95%;
+  font-weight: 500;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.news_cardInfoTime {
+  padding-top: 15px;
+  font-weight: 500;
+}

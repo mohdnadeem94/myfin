@@ -1,0 +1,94 @@
+.news_Earnings {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  overflow-y: scroll;
+  background-color: white;
+  max-height: 500px;
+  width: 30%;
+}
+
+/* .news_EarningsHeader {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+} */
+
+.news_EarningsHeader > h2 {
+  margin: 5px;
+  margin-top: 10px;
+  font-weight: 525;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 10px;
+}
+
+.news_EarningsDates {
+  display: flex;
+}
+
+.news_EarningsDates > Button {
+  color: grey;
+  min-width: 100px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+.news_EarningsDates > Button:hover {
+  color: white;
+  background-color: rgb(157, 186, 240);
+}
+/* .newsEarningsDown {
+  margin-top: 110px;
+} */
+.newsEarningsDiv {
+  border-top: 0.75px solid rgb(158, 156, 156);
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+}
+
+.newsEarningsDiv > .MuiSvgIcon-root {
+  color: rgb(43, 125, 163);
+  font-size: 50px;
+}
+
+.IconDate {
+  padding: 5px;
+  padding-left: 55px;
+  padding-top: 20px;
+  margin-left: -89px;
+  font-weight: bolder;
+}
+
+.newsEarningsInfo {
+  margin: 5px;
+  margin-top: 0;
+  padding: 5px;
+  padding-left: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.news_Earnings::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.news_Earnings {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.newsEarningsDate {
+  font-size: small;
+  padding-top: 2px;
+  color: rgb(119, 119, 119);
+}
+
+@media screen and (max-width: 780px) {
+  .news_Earnings {
+    max-height: 400px;
+  }
+}

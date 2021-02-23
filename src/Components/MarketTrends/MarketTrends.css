@@ -1,0 +1,61 @@
+.marketTrend {
+  margin-bottom: 10px;
+  margin: 5%;
+  margin-top: 1%;
+  border: 1px solid whitesmoke;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.marketTrend > h2 {
+  font-weight: 525;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.marketTrend_Header {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 10px;
+}
+
+.marketTrend_Header > p {
+  font-weight: 600;
+  font-size: medium;
+  border: 1px solid grey;
+  border-radius: 25px;
+  padding: 7px;
+  margin: 5px;
+  color: grey;
+  min-width: 22.5%;
+  text-align: center;
+}
+
+.marketTrend_Header:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .marketTrend_Header {
+    min-width: 30%;
+  }
+}
+
+.marketTrend_Header .marketTrend_HeaderActive {
+  background-color: rgb(180, 206, 230);
+  color: rgb(19, 70, 165);
+}
+
+.marketTrend_Header::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.marketTrend_Header {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,20 @@
+.activeButton {
+  border-radius: 7.5px;
+  color: rgb(72, 114, 153);
+  border-bottom: 1.5px solid rgb(72, 114, 153);
+}
+
+.chart_CompareAddButton > .MuiSvgIcon-root {
+  color: gray;
+  margin-left: 10px;
+  margin-bottom: -5px;
+}
+
+.chart_CompareAddButton > .MuiSvgIcon-root:hover {
+  color: rgb(106, 138, 168);
+}
+
+.chartjs-render-monitor {
+  margin-bottom: 10px;
+  max-height: 450px;
+}

@@ -1,0 +1,188 @@
+.market_Stock {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  max-height: 100px;
+  overflow: scroll;
+}
+/* .market_StockLeft {
+  display: flex;
+} */
+
+.market_StockTicName {
+  display: flex;
+  width: 35%;
+  margin-right: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.market_StockTic {
+  margin-top: 10px;
+  max-height: 20px;
+  background-color: rgb(42, 53, 114);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  width: 35%;
+}
+
+.market_StockName {
+  padding-left: 15px;
+  margin-top: 10px;
+  max-height: 20px;
+  font-weight: 400;
+  max-width: 150px;
+}
+
+.market_StockNewsBox {
+  margin-top: 10px;
+  max-height: 40px;
+  width: 70%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.market_StockNewsSenti {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.market_StockNewsSenti > h4 {
+  margin-top: 5px;
+  margin-left: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.market_StockNewsSentiScore {
+  background-color: rgb(42, 53, 114);
+  color: white;
+  margin-left: 10px;
+  padding: 5px;
+  min-width: 45px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.market_StockNewsSentiBox {
+  display: flex;
+}
+
+.market_StockNewsSentiBox > h4 {
+  padding-top: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.green {
+  color: rgb(12, 107, 12);
+  background-color: rgb(179, 224, 179);
+}
+
+.red {
+  color: rgb(172, 9, 9);
+  background-color: rgb(202, 163, 163);
+}
+
+.neutral {
+  color: grey;
+  background-color: rgb(214, 210, 210);
+}
+
+.market_StocPrice {
+  margin-right: 15px;
+  margin-left: 10px;
+  margin-top: 25px;
+  font-weight: 550;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.market_StockPercentBox {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 15px;
+  display: flex;
+}
+
+.market_StockPercent {
+  display: flex;
+  padding: 7.5px;
+  border-radius: 10px;
+  max-height: 25px;
+}
+
+.market_StockPercent > h4 {
+  font-weight: 550;
+  font-size: larger;
+}
+
+.market_StockPercentBox > .MuiSvgIcon-root {
+  padding-left: 20px;
+  padding-top: 8px;
+  font-weight: 600;
+  color: grey;
+}
+
+.market_StockPercentBox > .MuiSvgIcon-root :hover {
+  color: rgb(12, 15, 212);
+}
+
+.market_Stock::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .market_Stock {
+    min-height: 305px;
+  }
+  .market_StockTicName {
+    display: inline;
+  }
+  .market_StockName {
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: small;
+    padding-left: 0;
+  }
+  .market_StockLeft {
+    display: inline;
+  }
+  .market_StockTic {
+    max-width: 45px;
+  }
+  .market_StocPrice {
+    margin-top: 15px;
+    font-weight: 550;
+    font-size: large;
+    margin-left: -125%;
+  }
+  .market_StockPercentBox {
+    margin-top: 15px;
+  }
+  .market_StockPercent {
+    padding: 5px;
+    border-radius: 10px;
+    max-height: 25px;
+  }
+
+  .market_StockPercent > h4 {
+    font-weight: 550;
+    font-size: medium;
+  }
+
+  .market_StockNews {
+    max-width: 80%;
+  }
+  .market_StockNewsSenti {
+    display: inline;
+  }
+  .market_StockNewsSentiBox {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+  }
+  .market_StockNewsSentiScore {
+    margin-right: 55%;
+  }
+}

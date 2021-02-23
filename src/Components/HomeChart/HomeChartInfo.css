@@ -1,0 +1,107 @@
+.homeChart_ChartInfo {
+  width: 25%;
+}
+
+.homechartinfo_name > img {
+  height: 50px;
+}
+
+.homechartinfo_name > h4 {
+  padding: 10px;
+  font-size: larger;
+}
+
+.topRight_Price {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 10px;
+}
+
+.topRight_Price > h1 {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 3px;
+  margin-left: 5px;
+}
+
+.topRight_PriceChange {
+  margin-top: 10px;
+  margin-left: 5%;
+  display: flex;
+  border: 1px solid gray;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.topRight_PriceChange_Low {
+  background-color: rgb(228, 171, 171);
+  color: rgb(185, 70, 70);
+}
+
+.topRight_PriceChange_High {
+  background-color: rgb(176, 223, 190);
+  color: rgb(92, 156, 111);
+}
+
+.topRight_PriceChange > h3 {
+  padding-right: 10px;
+}
+
+.topRight_HiLo > h4 {
+  color: grey;
+}
+
+.topRight_HiLo {
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.topRight_Low {
+  color: rgb(185, 70, 70);
+}
+
+.topRight_Hi {
+  color: rgb(87, 149, 87);
+}
+
+.topRight_HiLoText {
+  font-size: x-small;
+  color: black;
+}
+
+.homeChart_ChartInfo > h3 {
+  margin-top: 4px;
+  padding: 7.5px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* background-image: linear-gradient(to right, #e08181, rgb(146, 212, 161)); */
+  /* color: rgb(255, 255, 255); */
+}
+
+.homeChart_ChartInfo > h4 {
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(93, 92, 92);
+}
+
+.homeChart_ChartInfo > h5 {
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(93, 92, 92);
+}
+
+.topRight::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.topRight {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

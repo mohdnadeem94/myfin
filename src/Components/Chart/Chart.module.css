@@ -1,0 +1,72 @@
+.chart {
+  margin: 10px;
+  padding: -20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.chart_Timeline {
+  display: flex;
+  overflow-x: scroll;
+  flex-direction: row;
+}
+
+.chart_Timeline > p {
+  margin: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  min-width: 75px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.chart_Timeline > p:hover {
+  cursor: pointer;
+  border-radius: 7.5px;
+  color: rgb(72, 114, 153);
+  border-bottom: 1.5px solid rgb(72, 114, 153);
+}
+
+.chart_Timeline::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chart_Timeline {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.chart_CompareSymbols {
+  margin-top: 15px;
+  display: flex;
+  overflow-x: scroll;
+  padding: 5px;
+}
+
+.chart_CompareSymbols > p {
+  margin: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 7.5px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.chart_CompareAddButton > .MuiSvgIcon-root {
+  margin-left: 5px;
+}
+
+.chart_CompareSymbols::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chart_CompareSymbols {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
